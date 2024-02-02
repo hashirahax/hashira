@@ -37,7 +37,7 @@ loading_screen() {
     printf "\n"
 }
 
-
+rm -rf ips.txt
 loading_screen sleep 5
 clear
 echo -e "\033[1;35m  FILES CLEANED\033[0m"
